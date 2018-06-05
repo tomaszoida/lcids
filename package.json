@@ -1,6 +1,11 @@
 {
   "name": "lcids",
-  "version": "0.0.1",
+  "description": "TypeScript CultureInfo and LCIDs",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tomasz Wojtasik",
+    "email": "tomaszoida@o2.pl"
+  },
   "repository": "https://github.com/tomaszoida/lcids.git",
   "main": "dist/lcids.js",
   "types": "dist/index.d.ts",
