@@ -1,0 +1,37 @@
+# compiled output
+/src
+/tmp
+/test
+/tests
+/Tests
+karma.config.js
+webpack.config.js
+tsconfig.json
+
+# dependencies
+/node_modules
+/bower_components
+
+# IDEs and editors
+/.idea
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+
+### VisualStudioCode ###
+.vscode/*
+
+# End of https://www.gitignore.io/api/angular,visualstudiocode
