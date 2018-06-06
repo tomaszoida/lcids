@@ -1,7 +1,7 @@
 {
   "name": "lcids",
   "description": "TypeScript CultureInfo and LCIDs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Tomasz Wojtasik",
     "email": "tomaszoida@o2.pl"
@@ -16,6 +16,12 @@
     "bat": "npm run build & npm run test",
     "clean": "rimraf dist && rimraf coverage && rimraf types"
   },
+  "keywords": [
+    "lcid",
+    "cultureinfo",
+    "language",
+    "mapping"
+  ],
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
