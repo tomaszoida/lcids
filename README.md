@@ -1,7 +1,8 @@
 # LCIDs
 TypeScript representation of Windows Language Code Identifiers (LCID) and CultureInfo
 ## Description: 
-The package gives you TypeScript/JS representation of .NET SpecificCultures
+The package gives you TypeScript/JS representation of over 200 .NET SpecificCultures
+
 //PowerShell [CultureInfo]::GetCultures([System.Globalization.CultureTypes]::SpecificCultures) | select LCID,Name,DisplayName,NativeName | ConvertTo-Json | Out-File -FilePath CultureInfos.js
 
 ## Installation: 
@@ -12,14 +13,15 @@ Use lcids object to get an array of objects mapping LCID to culture name, one of
     
 ```
 import { lcids } from 'lcids';
-...
-{
-    "LCID":  1033,
-    "Name":  "en-US",
-    "DisplayName":  "English (United States)",
-    "NativeName":  "English (United States)"
-}
-...
+lcids
+// ...
+//{
+//    "LCID":  1033,
+//    "Name":  "en-US",
+//    "DisplayName":  "English (United States)",
+//    "NativeName":  "English (United States)"
+//},
+// ...
 ```
 
 
