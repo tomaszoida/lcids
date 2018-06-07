@@ -9,7 +9,7 @@ module.exports = {
     path: __dirname,
     filename: "./dist/[name].js",
     library: "lcids",
-    libraryTarget: "umd",
+    libraryTarget: "amd",
     umdNamedDefine: true
   },
   devtool: 'source-map',

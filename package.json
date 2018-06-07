@@ -1,7 +1,7 @@
 {
   "name": "lcids",
   "description": "TypeScript CultureInfo and LCIDs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Tomasz Wojtasik",
     "email": "tomaszoida@o2.pl"
